@@ -4,7 +4,7 @@ using namespace std;
 int binary(int n, int i)
 {
     int k;
-    for (i--; i >= 0; i--)
+    for (i--; i >= 0; i--) /*loop*/
    {
       k = n >> i;
       if (k & 1)
